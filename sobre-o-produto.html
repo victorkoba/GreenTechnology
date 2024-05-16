@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/produto.css">
-    <title>Document</title>
+    <title>Produto</title>
 </head>
 
 <body>
-    <nav>
-        <header>
+    <header>
+        <nav>
             <div class="cabecalho">
-                <img id="logo-empresa" src="img/logo-green-technollogy-sem-fundo.png" alt="">
+                <div class="logo-titulo">
+                    <img id="logo-empresa" src="img/logo-green-technollogy-sem-fundo.png" alt="">
+                    <h1>Green Technology</h1>
+                </div>
                 <nav>
                     <ul>
                         <li><a href="index.html">Página Inicial</a></li>
@@ -21,33 +24,53 @@
                         <li><a href="contato.html">Contato</a></li>
                         <li><a href="integrantes.html">Integrantes</a></li>
                     </ul>
-                </nav>
             </div>
-        </header>
-    </nav>
+        </nav>
+    </header>
 
-    <div id="projeto">
-        <h2>Nosso produto</h2>
-        <p>O produto consiste na implementação de sensores para uma horta inteligente com foco no
-            monitoramento e controle da umidade do solo, utilizando tecnologias IoT, microcontrolador Arduino,
-            sensor de umidade do solo e desenvolvimento lógico em linguagem C#. A implementação bem-sucedida
-            do Green Meter proporcionará um ambiente automatizado e eficiente para o cultivo de plantas em uma
-            horta, além de contribuir para o uso sustentável da água e melhorar a produtividade da colheita.</p>
+    <div class="conteudo">
+        <div class="projeto">
+            <h2>Missão do nosso produto</h2>
+            <p>Fornecer uma solução precisa e confiável para a identificação da umidade de diferentes tipos de solo,
+                visando auxiliar agricultores e profissionais em suas atividades, promovendo um impacto positivo no
+                meio ambiente e na produtividade agrícola.</p>
+        </div>
 
+        <div class="imgproduto">
+            <img class="imagens" src="./img/imagem planta.jpg" alt="">
+        </div>
+
+        <div class="projeto">
+            <h2>Nosso Produto</h2>
+            <p>O produto consiste na implementação de sensores para uma horta inteligente com foco no
+                monitoramento e controle da umidade do solo, utilizando tecnologias IoT, microcontrolador Arduino,
+                sensor de umidade do solo e desenvolvimento lógico em linguagem C#. A implementação bem-sucedida
+                do Green Meter proporcionará um ambiente automatizado e eficiente para o cultivo de plantas em uma
+                horta, além de contribuir para o uso sustentável da água e melhorar a produtividade da colheita.</p>
+        </div>
+
+        <div class="imgproduto">
+            <img class="imagens" src="./img/imagem produto.png" alt="">
+        </div>
+    </div>
+    <div class="projeto">
+        <h2>Mas qual problema nosso produto busca resolver?</h2>
+        <p>Manter a umidade do solo é essencial para o desenvolvimento do cultivo,
+            visto que é pela água que as plantas recebem os nutrientes necessários para o crescimento.
+            Porém, uma quantidade de umidade elevada pode acabar prejudicando o metabolismo das plantas, afetando a
+            qualidade dos grãos e atrasando a produtividade, além de que, um solo muito úmido pode favorecer a
+            salinidade do solo que atinge o desenvolvimento das raízes das plantas. Assim, nosso produto tem como
+            objetivo ajudar os profissionais a controlar a umidade de seus solos.</p>
     </div>
 
-    <div style="height: 100px;" id="imagensproduto1">
-        <img src="./img/imagem produto.png" alt="">
-
-    </div>
-
-    <div id="projeto2">
-        <h2>Missão do nosso produto</h2>
-        <p>Fornecer uma solução precisa e confiável para a identificação da umidade de diferentes tipos de solo,
-            visando auxiliar agricultores e profissionais em suas atividades, promovendo um impacto positivo no
-            meio ambiente e na produtividade agrícola.</p>
-
-    </div>
+    <footer>
+        <div class="imgfooter">
+            <a href="https://www.instagram.com/senaitaubate/" target="_blank"><img src="./img/icon_insta-removebg-preview.png" alt="" width="50" height="40"> </a>
+            <a href="https://www.facebook.com/senaitaubate/?locale=pt_BR" target="_blank"><img src="./img/facebook_icon-removebg-preview.png" alt="" width="50" height="40"></a>
+            <a href="https://br.linkedin.com/company/senai-nacional" target="_blank"><img src="./img/linkedin_icon-removebg-preview.png" alt="" width="50" height="40"></a>
+        </div>
+        <p id="pfooter">Green Technology - Seu mundo verde mais autônomo</p>
+    </footer>
 
 </body>
 
