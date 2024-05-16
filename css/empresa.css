@@ -6,7 +6,10 @@
 }
 
 body {
-    background-color: beige;
+    background-image: url("../img/grama.jpg");
+    background-size: cover;
+    background-position: center;
+
 }
 
 header {
@@ -79,19 +82,16 @@ p {
     line-height: 1.6;
     margin-top: 10px;
     display: inline-block;
-    /* Alterado para inline-block */
     padding: 10px;
-    /* Adicionado padding */
     border: 1px solid #ccc;
-    /* Adicionado borda */
     border-radius: 5px;
-    /* Adicionado borda arredondada */
+
 }
 
 .container ul {
     margin-top: 10px;
     padding-left: 20px;
-    /* Adiciona um pequeno recuo à esquerda */
+
 }
 
 .container ul li {
