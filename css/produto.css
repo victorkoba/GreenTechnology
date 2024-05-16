@@ -10,11 +10,8 @@ body{
     background-position: center;
 } 
 
-<<<<<<< HEAD
-header {
-=======
 header{
->>>>>>> 2e243be2bc09b42f691e7e818a1a2e518f749015
+
     background-color: rgb(9, 60, 30);
     width: 100%;
     height: 80px;
@@ -66,12 +63,9 @@ a:hover{
 }
 
 
-<<<<<<< HEAD
 body {
     background-color: rgb(244, 244, 241);
 }
-=======
->>>>>>> 2e243be2bc09b42f691e7e818a1a2e518f749015
 
 .projeto {
     background-color: white;
