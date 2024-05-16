@@ -6,10 +6,7 @@
 }
 
 body {
-    background-image: url('../img/grama.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #333;
+    background-color: beige;
 }
 
 header {
