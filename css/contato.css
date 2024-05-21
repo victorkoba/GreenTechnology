@@ -5,9 +5,10 @@
 }
 
 body{
-    background-image: url('../img/img\ planta\ fundo.PNG');
+    /* background-image: url('../img/img\ planta\ fundo.PNG');
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: beige;
 } 
 
 #titulo-contato {

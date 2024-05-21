@@ -5,7 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-main{
+body{
     background-image: url("../img/grama.jpg");
     background-size: cover;
     background-position: center;
