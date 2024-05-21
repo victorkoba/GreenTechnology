@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: beige;
 }
@@ -37,19 +41,20 @@ body{
 header {
     background-color: rgb(9, 60, 30);
     width: 100%;
-    height: 120px;
+    height: 80px;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
 }
 
 #logo-empresa {
-    height: 119px;
-    width: 123;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
+    height: 74px;
+    width: 70px;
 }
 
-li a {
+header li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -58,30 +63,39 @@ li a {
     text-transform: capitalize;
     padding: 20px;
 }
-
 .cabecalho {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    position: x;
+}
+
+header ul {
+    display: flex;
     list-style-type: none;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 15px;
-    margin-top: 45px;
+header ul li {
+    margin: 10px;
 }
 
 a:hover {
     color: #8DC63E;
 }
 
+header h1 {
+    margin: 10px;
+    color: white;
+    font-family: system-ui;
+}
+
 footer{
     width: 100%;
     background-color: rgb(9, 60, 30);
     color: white;
-
+    bottom: 0;
+    margin-bottom: 0px;
+    position: absolute;
 }
 .imgfooter{
     display: flex;
