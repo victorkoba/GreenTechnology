@@ -1,9 +1,10 @@
+body{
+    background-color: beige;
+}
 
 #titulo-contato {
     margin-top: 20px;
-    /* Espaçamento superior para separar do header */
     text-align: center;
-    /* Centralizando o texto */
 }
 
 .contact-us-content-container {

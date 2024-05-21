@@ -1,6 +1,8 @@
 body{
     margin: 0;
-    background-color: rgb(245, 245, 220)
+    background-image: url(../img/img\ planta\ fundo.PNG);
+    background-size: cover;
+    background-position:center;
 }
 
 #titulo-contato {
@@ -18,11 +20,12 @@ body{
     margin-right: 20px;
     text-align: center;
     text-decoration: none;
-    color: #333;
+    color:black;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 35px;
 }
 
 .contact-us-content-container .contact-us-card:last-child {

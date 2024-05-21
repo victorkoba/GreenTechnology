@@ -83,8 +83,6 @@ p {
     margin-top: 10px;
     display: inline-block;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 
 }
 
@@ -131,3 +129,5 @@ footer {
     font-family: system-ui;
     font-weight: bold;
 }
+
+
