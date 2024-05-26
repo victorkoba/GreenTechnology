@@ -5,9 +5,10 @@
 }
 
 body{
-    background-image: url('../img/img\ planta\ fundo.PNG');
+    background-image: url('../img/irrigação-imagem.png');
     background-size: cover;
     background-position: center;
+    /* background-color: rgba(48, 196, 11, 0.507); */
 } 
 
 header{
