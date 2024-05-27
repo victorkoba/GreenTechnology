@@ -80,6 +80,10 @@ h2 {
     margin-top: 20px;
 }
 
+#titulo {
+    text-decoration: none;
+}
+
 p {
     line-height: 1.6;
     margin-top: 10px;
