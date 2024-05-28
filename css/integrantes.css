@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+#titulo{
+    text-decoration: none;
+}
+
 body{
     background-color: beige;
 }
