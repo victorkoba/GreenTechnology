@@ -140,6 +140,7 @@ footer{
     align-items: center;
     font-family: system-ui;
     font-weight: bold;
-    margin: 0 !important;
+    margin: 0 !important;  
+    padding-bottom: 15px;
 }
 
