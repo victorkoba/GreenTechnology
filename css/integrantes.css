@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: rgba(247, 247, 239, 0.7);
 }
 
 header {
@@ -122,9 +122,9 @@ footer{
     width: 100%;
     background-color: rgb(9, 60, 30);
     color: white;
-    bottom: 0;
     margin-bottom: 0px;
-    position:relative;
+    position:fixed;
+    bottom: 0;
 }
 .imgfooter{
     display: flex;
